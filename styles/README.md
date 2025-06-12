@@ -1,1 +1,0 @@
-https://github.com/MaximTrifonov777/ono-tebe-nado
