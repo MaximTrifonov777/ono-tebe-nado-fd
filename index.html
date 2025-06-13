@@ -4,21 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="styles/globals.css">
     <link rel="stylesheet" href="styles/style.css">
   </head>
+
   <body>
     <header>
       <nav class="nav">
         <ul>
-          <li><a class="nav-link" href="#">главная</a></li>
-          <li><a class="nav-link" href="#">посмотреть лоты</a></li>
-          <li><a class="nav-link" href="#">об аукционе</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-active" href="#">главная</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">посмотреть лоты</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">об аукционе</a></li>
         </ul>
       </nav>
       
-      <a class="logo-link" href="#"><img src="images/logo-black.svg" class="logo"></a>
+      <a class="logo-link" href="#"><img src="images/logo-black.svg" class="logo" alt="Логотип аукциона"></a>
       
       <address class="contact-info">
         <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -28,13 +30,13 @@
     </header>
 
     <main>
-      <section class="cover">
+      <section class="cover overlay">
         <div class="cover-content">
-          <div class="cover-title">
-            <span class="cover-title-word first-word">Оно</span>
-            <span class="cover-title-word second-word">Тебе</span>
-            <span class="cover-title-word third-word">Надо</span>
-          </div>
+          <h1 class="cover-title">
+            <span class="cover-title-word-first-word">Оно</span>
+            <span class="cover-title-word-second-word">тебе</span>
+            <span class="cover-title-word-third-word">надо</span>
+          </h1>
           <p class="cover-description">Аукцион вещей, в которые никто не верил</p>
           <button class="button">Сделать ставку</button>
         </div>
@@ -45,7 +47,7 @@
         <ul class="lots-list">
           <li class="lots-item">
             <a href="#" class="lot-link">
-              <article class="lot lot-film">
+              <article class="lot overlay lot-film">
                 <h3 class="lot-title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="lot-text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
               </article>
@@ -53,7 +55,7 @@
           </li>
           <li class="lots-item">
             <a href="#" class="lot-link">
-              <article class="lot lot-book">
+              <article class="lot overlay lot-book">
                 <h3 class="lot-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                 <p class="lot-text">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
               </article>
@@ -61,7 +63,7 @@
           </li>
           <li class="lots-item">
             <a href="#" class="lot-link">
-              <article class="lot lot-picture">
+              <article class="lot overlay lot-picture">
                 <h3 class="lot-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="lot-text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
               </article>
@@ -73,7 +75,7 @@
 
       <section class="about">
         <div class="about-logo">
-          <img src="images/logo-white.svg"  class="about-logo-image">
+          <img src="images/logo-white.svg" class="about-logo-image" alt="Логотип аукциона">
         </div>
         <div class="about-content">
           <h2 class="about-title">Об аукционе</h2>
@@ -87,23 +89,23 @@
 
     <footer>
       <address class="contact-info">
-        <a href="">+9 999 555 5555</a>
-        <a href="">info@sobaka.ge</a>
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       
       <nav class="footer-nav">
         <ul>
-          <li><a class="footer-nav-link" href="#">главная</a></li>
+          <li><a class="footer-nav-link footer-nav-link-active" href="#">главная</a></li>
           <li><a class="footer-nav-link" href="#">посмотреть лоты</a></li>
           <li><a class="footer-nav-link" href="#">об аукционе</a></li>
         </ul>
       </nav>
       
       <ul class="socials">
-        <li><a href="#"><img src="images/pinterest.svg"  class="social-icon"></a></li>
-        <li><a href="#"><img src="images/vk.svg"  class="social-icon"></a></li>
-        <li><a href="#"><img src="images/yt.svg"  class="social-icon"></a></li>
+        <li><a href="#"><img src="images/pinterest.svg" class="social-icon" alt="Pinterest"></a></li>
+        <li><a href="#"><img src="images/vk.svg" class="social-icon" alt="ВКонтакте"></a></li>
+        <li><a href="#"><img src="images/yt.svg" class="social-icon" alt="YouTube"></a></li>
       </ul>
     </footer>
   </body>
