@@ -9,7 +9,7 @@ header {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 20px 50px;
+  padding: 8px 16px;
   align-items: center;
 }
 
@@ -83,7 +83,7 @@ header {
 
 .cover {
   position: relative;
-  min-height: 534px;
+  height: auto;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -310,6 +310,7 @@ footer {
 
 .footer-nav-link:hover {
   text-decoration: underline;
+  
 }
 
 .socials {
